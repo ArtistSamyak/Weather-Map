@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+// These structures are used to decode JSON from Open Weather API to get the temperature, location & weather description.
 struct WeatherData: Decodable {
     let name: String
     let main: Main
